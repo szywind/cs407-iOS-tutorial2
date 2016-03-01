@@ -15,6 +15,8 @@
 		8E3B2B811C854D4A00E40B14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3B2B7F1C854D4A00E40B14 /* LaunchScreen.storyboard */; };
 		8E3B2B8C1C854D4A00E40B14 /* MyTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3B2B8B1C854D4A00E40B14 /* MyTutorialTests.swift */; };
 		8E3B2B971C854D4A00E40B14 /* MyTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3B2B961C854D4A00E40B14 /* MyTutorialUITests.swift */; };
+		8E3B2BA51C85819500E40B14 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3B2BA41C85819500E40B14 /* ShowViewController.swift */; };
+		8E3B2BA71C8581A800E40B14 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3B2BA61C8581A800E40B14 /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8E3B2B921C854D4A00E40B14 /* MyTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E3B2B961C854D4A00E40B14 /* MyTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTutorialUITests.swift; sourceTree = "<group>"; };
 		8E3B2B981C854D4A00E40B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E3B2BA41C85819500E40B14 /* ShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		8E3B2BA61C8581A800E40B14 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		A528CD7A6B8D5B8DF34CA444 /* Pods-MyTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTutorial/Pods-MyTutorial.release.xcconfig"; sourceTree = "<group>"; };
 		C6DB3859F3D46BA52AA6752E /* Pods_MyTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -127,6 +131,8 @@
 				8E3B2B7D1C854D4A00E40B14 /* Assets.xcassets */,
 				8E3B2B7F1C854D4A00E40B14 /* LaunchScreen.storyboard */,
 				8E3B2B821C854D4A00E40B14 /* Info.plist */,
+				8E3B2BA41C85819500E40B14 /* ShowViewController.swift */,
+				8E3B2BA61C8581A800E40B14 /* ModalViewController.swift */,
 			);
 			path = MyTutorial;
 			sourceTree = "<group>";
@@ -334,8 +340,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E3B2BA71C8581A800E40B14 /* ModalViewController.swift in Sources */,
 				8E3B2B791C854D4A00E40B14 /* ViewController.swift in Sources */,
 				8E3B2B771C854D4A00E40B14 /* AppDelegate.swift in Sources */,
+				8E3B2BA51C85819500E40B14 /* ShowViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
