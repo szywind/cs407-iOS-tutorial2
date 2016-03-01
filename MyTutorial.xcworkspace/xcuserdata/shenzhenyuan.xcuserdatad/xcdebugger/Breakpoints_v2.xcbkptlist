@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTutorial/ViewController.swift"
+            timestampString = "478511124.991053"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyTutorial.ViewController.__deallocating_deinit"
+                  moduleName = "MyTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shenzhenyuan/Documents/Lab/MyTutorial/MyTutorial/ViewController.swift"
+                  timestampString = "478512504.777752"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyTutorial.ViewController.init (MyTutorial.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; MyTutorial.ViewController"
+                  moduleName = "MyTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shenzhenyuan/Documents/Lab/MyTutorial/MyTutorial/ViewController.swift"
+                  timestampString = "478512504.777933"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyTutorial.ViewController.init (MyTutorial.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;MyTutorial.ViewController&gt;"
+                  moduleName = "MyTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shenzhenyuan/Documents/Lab/MyTutorial/MyTutorial/ViewController.swift"
+                  timestampString = "478512504.778048"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTutorial/ViewController.swift"
+            timestampString = "478511125.680786"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyTutorial.ViewController.__deallocating_deinit"
+                  moduleName = "MyTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shenzhenyuan/Documents/Lab/MyTutorial/MyTutorial/ViewController.swift"
+                  timestampString = "478512504.779139"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyTutorial.ViewController.init (MyTutorial.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; MyTutorial.ViewController"
+                  moduleName = "MyTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shenzhenyuan/Documents/Lab/MyTutorial/MyTutorial/ViewController.swift"
+                  timestampString = "478512504.779304"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyTutorial.ViewController.init (MyTutorial.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;MyTutorial.ViewController&gt;"
+                  moduleName = "MyTutorial"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shenzhenyuan/Documents/Lab/MyTutorial/MyTutorial/ViewController.swift"
+                  timestampString = "478512504.779434"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyTutorial/ViewController.swift"
+            timestampString = "478512522.496353"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "prepareForSegue(_:sender:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

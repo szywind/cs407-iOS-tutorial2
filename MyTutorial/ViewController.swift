@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!){
         if (segue.identifier == "PresentShow"){
@@ -25,14 +25,26 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-
+        print("viewDidLoad")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        print("viewDidReceiveMemoryWarning")
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        print("viewWillAppear")
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        print("viewDidAppear")
     }
 
+    func textFieldDidBeginEditing(textField: UITextField) {
+        print("textFieldDidBeginEditing")
+    }
 
 }
 
