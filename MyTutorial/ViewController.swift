@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
     
+    @IBOutlet weak var myTextField: UITextField!
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!){
         if (segue.identifier == "PresentShow"){
             if let destination = segue.destinationViewController as? ShowViewController{
@@ -25,6 +26,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+//        self.myTextField.delegate = self;
         print("viewDidLoad")
     }
 
@@ -44,6 +46,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     func textFieldDidBeginEditing(textField: UITextField) {
         print("textFieldDidBeginEditing")
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        return false
     }
 
 }

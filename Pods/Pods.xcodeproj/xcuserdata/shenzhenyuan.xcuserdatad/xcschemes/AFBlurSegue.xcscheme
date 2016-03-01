@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4D94CCDE2C5885EB524105A4'
+               BlueprintIdentifier = 'A0A010C0D3AB2EC58E068373'
                BlueprintName = 'AFBlurSegue'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'AFBlurSegue.framework'>
