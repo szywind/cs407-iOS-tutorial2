@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--PresentModally-->
@@ -36,7 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9fq-Fp-Jhp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1034" y="409"/>
+            <point key="canvasLocation" x="1155" y="451"/>
         </scene>
         <!--Main-->
         <scene sceneID="tne-QT-ifu">
@@ -50,6 +51,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="top" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MI1-xu-h2F">
+                                <rect key="frame" x="281" y="84" width="38" height="30"/>
+                                <state key="normal" title="Show"/>
+                                <connections>
+                                    <segue destination="ocd-ea-oAi" kind="show" identifier="PresentShow" id="X8x-Ca-xRa"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="9el-gY-fUg">
+                                <rect key="frame" x="257" y="285" width="87" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="3RU-5I-Tct"/>
+                                </connections>
+                            </textField>
                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3W-LN-lLc">
                                 <rect key="frame" x="245" y="400" width="111" height="30"/>
                                 <state key="normal" title="Present Modally"/>
@@ -57,20 +73,17 @@
                                     <segue destination="7DZ-S7-Geu" kind="showDetail" identifier="PresentModally" action="showViewController:sender:" id="bva-lX-fYf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="top" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MI1-xu-h2F">
-                                <rect key="frame" x="281" y="167" width="38" height="30"/>
-                                <state key="normal" title="Show"/>
-                                <connections>
-                                    <segue destination="ocd-ea-oAi" kind="show" identifier="PresentShow" id="X8x-Ca-xRa"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="MI1-xu-h2F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Vt-Ve-N4e"/>
+                            <constraint firstItem="9el-gY-fUg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="QoG-pe-qpS"/>
                             <constraint firstItem="T3W-LN-lLc" firstAttribute="centerX" secondItem="MI1-xu-h2F" secondAttribute="centerX" id="RFx-b8-FPn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9el-gY-fUg" secondAttribute="trailing" constant="50" id="UAo-0r-Zke"/>
+                            <constraint firstItem="9el-gY-fUg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W78-5c-ssX"/>
                             <constraint firstItem="MI1-xu-h2F" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="dQX-45-FwS"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="T3W-LN-lLc" secondAttribute="bottom" constant="170" id="mZk-Io-3a5"/>
+                            <constraint firstItem="9el-gY-fUg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pqC-f6-iGN"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Main" id="DaW-Al-fe9"/>
@@ -110,7 +123,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7wM-0h-35y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2089" y="-275"/>
+            <point key="canvasLocation" x="1911" y="-315"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="sT4-sW-3DY">
