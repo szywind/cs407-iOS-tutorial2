@@ -48,6 +48,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         print("textFieldDidBeginEditing")
     }
     
+    // dismiss input keyboard when pressing return
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         self.view.endEditing(true)
         return false
