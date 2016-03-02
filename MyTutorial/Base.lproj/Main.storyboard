@@ -113,10 +113,18 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="74u-B6-O7S">
+                                <rect key="frame" x="284" y="371" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="rYQ-P9-HuY" kind="show" id="yBh-Fp-nQV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="GSr-MQ-dEO" firstAttribute="centerX" secondItem="rm8-m2-yiC" secondAttribute="centerX" id="1Am-GE-8Lu"/>
+                            <constraint firstItem="74u-B6-O7S" firstAttribute="centerX" secondItem="rm8-m2-yiC" secondAttribute="centerX" id="8eX-ek-Hse"/>
                             <constraint firstItem="GSr-MQ-dEO" firstAttribute="centerY" secondItem="rm8-m2-yiC" secondAttribute="centerY" id="jcE-wl-azc"/>
                         </constraints>
                     </view>
@@ -127,6 +135,49 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7wM-0h-35y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1911" y="-315"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="Jh6-3p-Zzr">
+            <objects>
+                <tableViewController id="rYQ-P9-HuY" customClass="TableViewController" customModule="MyTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="1e6-Sr-tzt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="mycell" id="co7-Rw-v5o" customClass="TableViewCell" customModule="MyTutorial" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="co7-Rw-v5o" id="q8U-80-Zox">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xgn-kr-ujN">
+                                            <rect key="frame" x="264" y="8" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Xgn-kr-ujN" firstAttribute="centerX" secondItem="q8U-80-Zox" secondAttribute="centerX" id="Uhf-WW-YZE"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="labText" destination="Xgn-kr-ujN" id="FdB-l4-JmN"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="rYQ-P9-HuY" id="PVm-Tt-N3G"/>
+                            <outlet property="delegate" destination="rYQ-P9-HuY" id="ffe-ee-bUD"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pSV-3G-HhZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1911" y="430"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="sT4-sW-3DY">
